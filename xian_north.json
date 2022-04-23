@@ -1,0 +1,30 @@
+{
+  "status": "1",
+  "info": "OK",
+  "infocode": "10000",
+  "count": "1",
+  "geocodes": [
+    {
+      "formatted_address": "陕西省西安市雁塔区太白南路2号",
+      "country": "中国",
+      "province": "陕西省",
+      "citycode": "029",
+      "city": "西安市",
+      "district": "雁塔区",
+      "township": [],
+      "neighborhood": {
+        "name": [],
+        "type": []
+      },
+      "building": {
+        "name": [],
+        "type": []
+      },
+      "adcode": "610113",
+      "street": "太白南路",
+      "number": "2号",
+      "location": "108.916553,34.230124",
+      "level": "门牌号"
+    }
+  ]
+}

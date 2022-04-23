@@ -1,0 +1,30 @@
+{
+  "status": "1",
+  "info": "OK",
+  "infocode": "10000",
+  "count": "1",
+  "geocodes": [
+    {
+      "formatted_address": "陕西省西安市长安区西沣路兴隆段|266号",
+      "country": "中国",
+      "province": "陕西省",
+      "citycode": "029",
+      "city": "西安市",
+      "district": "长安区",
+      "township": [],
+      "neighborhood": {
+        "name": [],
+        "type": []
+      },
+      "building": {
+        "name": [],
+        "type": []
+      },
+      "adcode": "610116",
+      "street": "西沣路兴隆段",
+      "number": "266号",
+      "location": "108.830240,34.123128",
+      "level": "门牌号"
+    }
+  ]
+}
