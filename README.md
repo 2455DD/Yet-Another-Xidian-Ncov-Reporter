@@ -1,4 +1,7 @@
 # Yet-Another-Xidian-Ncov-Report
+## 声明
+本程序仅用于学习交流，请在符合当地防疫政策的情况下使用。
+
 ## 为什么要搞这个
 1. 使用Github Action进行自动填报，不用专门租一台服务器来做这事
 2. 原有的[Xidian-Ncov-Report](https://github.com/Apache553/xidian-ncov-report)已经归档不再接受PR
@@ -25,3 +28,9 @@
 ### 手动填报
 1. `git clone`本仓库
 2. `go build`
+
+---
+## TODO
+- [ ] 增加健康卡自动申报功能
+
+- [ ] 增加自定义信息功能
