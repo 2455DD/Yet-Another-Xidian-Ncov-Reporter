@@ -33,7 +33,7 @@ jobs:
           go-version: 1.18
       
       - name: Go Build
-        run:
+        run: |
           go get .
           go build
       
