@@ -42,4 +42,4 @@ jobs:
       # Runs a single command using the runners shell
       - name: Invoke Secrets
         run:
-          ./Yet-Another-Xidian-Ncov-Report -u=$userid -p=$password -key=$apikey -location=$location -option=$OPTION
+          ./Yet-Another-Xidian-Ncov-Report -u=$userid -p=$password -key=$apikey -location=$location -option=$option
