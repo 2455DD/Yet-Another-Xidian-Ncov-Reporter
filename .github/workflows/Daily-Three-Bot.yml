@@ -20,6 +20,8 @@ jobs:
           userid: ${{secrets.USERID}}
           password: ${{secrets.PASSWORD}}
           apikey: ${{secrets.APIKEY}}
+          location: ${{secrets.LOCATION}}
+          option: ${{secrets.OPTION}}
       
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -40,4 +42,4 @@ jobs:
       # Runs a single command using the runners shell
       - name: Invoke Secrets
         run:
-          ./Yet-Another-Xidian-Ncov-Report -u $userid -p $password -key $apikey
+          ./Yet-Another-Xidian-Ncov-Report -u=$userid -p=$password -key=$apikey -location=$location -option=$OPTION
